@@ -10,7 +10,7 @@ print('''
           | |                                      
           |_|                                      
 
-Making deepfakes as easy as 123,ABC, you and me!
+Making deepfakes as easy as 123, ABC, you and me!
 
 Ingredients:
 - python (the language, but snakes are pretty cool)
@@ -29,10 +29,10 @@ qvideo = input("what is your driving video named?: ")
 qgpu = input("do you have a bespoke gpu?: ")
 
 if qgpu == no:
-	os.system("deep_animate", qimage, qvideo, "conf.yaml nameofmodelweights")
+	os.system("deep_animate", qimage, qvideo, "conf.yaml deep_animator_model.pth.tar")
 	
 elif gpu == yes:
-	os.system("deep_animate", qimage, qvideo, "conf.yaml nameofmodelweights --device cuda")
+	os.system("deep_animate", qimage, qvideo, "conf.yaml deep_animator_model.pth.tar --device cuda")
 
 else: print("Incorrect input, please answer the gpu question with either yes or no")
 
