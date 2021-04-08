@@ -8,8 +8,9 @@ So by using this program anyone with a little bit of storage and an internet con
 
 ### Directions:
 1. run "pip install deep-animator" in terminal or cmd
-2. navigate to where you downloaded the code
-3. run speculum.py
-4. answer their questions
-5. wait a little bit (great things take time)
-6. Voila! A deepfake!
+2. download the files from this repo, untar the deep_animator_model.pth.tar.gz (just google it, by the end it should only have a .pth.tar ending)
+4. navigate to where you downloaded the code
+5. run speculum.py
+6. answer their questions
+7. wait a little bit (great things take time)
+8. Voila! A deepfake!
